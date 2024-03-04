@@ -608,6 +608,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9d297deb1925b89f2ccc13d7635fa0714f12c87adce1c75356b39ca9b7178567"
 
 [[package]]
+name = "base64"
+version = "0.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9475866fec1451be56a3c2400fd081ff546538961565ccb5b7142cbd22bc7a51"
+
+[[package]]
 name = "base64ct"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6857,7 +6863,7 @@ version = "4.0.0"
 dependencies = [
  "arrayref",
  "assert_matches",
- "base64 0.21.7",
+ "base64 0.22.0",
  "bincode",
  "borsh 0.10.3",
  "num-derive 0.4.2",
@@ -7064,7 +7070,7 @@ dependencies = [
 name = "spl-pod"
 version = "0.1.1"
 dependencies = [
- "base64 0.21.7",
+ "base64 0.22.0",
  "borsh 0.10.3",
  "bytemuck",
  "serde",
@@ -7350,7 +7356,7 @@ name = "spl-token-2022"
 version = "2.0.1"
 dependencies = [
  "arrayref",
- "base64 0.21.7",
+ "base64 0.22.0",
  "bytemuck",
  "lazy_static",
  "num-derive 0.4.2",
@@ -7407,7 +7413,7 @@ name = "spl-token-cli"
 version = "3.3.0"
 dependencies = [
  "assert_cmd",
- "base64 0.21.7",
+ "base64 0.22.0",
  "clap 2.34.0",
  "console",
  "futures 0.3.30",
