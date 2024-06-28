@@ -42,7 +42,7 @@ serde_with = { version = "3.6.1", optional = true }
 base64 = { version = "0.21.7", optional = true }
 
 [dev-dependencies]
-lazy_static = "1.4.0"
+lazy_static = "1.5.0"
 proptest = "1.4"
 serial_test = "3.0.0"
 solana-program-test = ">=1.17.17,<=2"
