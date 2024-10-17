@@ -50,7 +50,7 @@ tokio = "1.36"
 [dev-dependencies]
 solana-test-validator = ">=1.17.17,<=2"
 assert_cmd = "2.0.13"
-libtest-mimic = "0.7"
+libtest-mimic = "0.8"
 serial_test = "3.0.0"
 tempfile = "3.10.0"
 
