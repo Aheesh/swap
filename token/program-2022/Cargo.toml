@@ -44,7 +44,7 @@ base64 = { version = "0.21.7", optional = true }
 [dev-dependencies]
 lazy_static = "1.4.0"
 proptest = "1.4"
-serial_test = "3.0.0"
+serial_test = "3.4.0"
 solana-program-test = ">=1.17.17,<=2"
 solana-sdk = ">=1.17.17,<=2"
 spl-tlv-account-resolution = { version = "0.5.2", path = "../../libraries/tlv-account-resolution" }
