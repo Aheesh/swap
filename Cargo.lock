@@ -3228,6 +3228,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "num-derive"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e4e98dc3b890f6c23a0f9d3d491a2823d0dea0fa656302a13dd225fa924112a8"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 3.0.3",
+]
+
+[[package]]
 name = "num-integer"
 version = "0.1.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3805,9 +3816,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.78"
+version = "1.0.107"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e2422ad645d89c99f8f3e6b88a9fdeca7fabeac836b1002371c4367c8f984aae"
+checksum = "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9"
 dependencies = [
  "unicode-ident",
 ]
@@ -6647,7 +6658,7 @@ version = "2.3.1"
 dependencies = [
  "assert_matches",
  "borsh 0.10.3",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "solana-program",
  "spl-token 4.0.1",
@@ -6672,7 +6683,7 @@ name = "spl-binary-oracle-pair"
 version = "0.1.0"
 dependencies = [
  "borsh 0.10.3",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "solana-program",
  "solana-program-test",
@@ -6860,7 +6871,7 @@ dependencies = [
  "base64 0.21.7",
  "bincode",
  "borsh 0.10.3",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "proptest",
  "serde",
@@ -6893,7 +6904,7 @@ dependencies = [
  "assert_matches",
  "bincode",
  "borsh 0.10.3",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "proptest",
  "serde",
@@ -6916,7 +6927,7 @@ dependencies = [
  "assert_matches",
  "bincode",
  "borsh 0.10.3",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "proptest",
  "serde",
@@ -6941,7 +6952,7 @@ dependencies = [
  "bincode",
  "borsh 0.10.3",
  "lazy_static",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "serde",
  "serde_derive",
@@ -6959,7 +6970,7 @@ dependencies = [
  "arrayref",
  "bincode",
  "borsh 0.10.3",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "serde",
  "serde_derive",
@@ -6998,7 +7009,7 @@ version = "0.2.0"
 dependencies = [
  "borsh 0.10.3",
  "libm",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "proptest",
  "solana-program",
@@ -7039,7 +7050,7 @@ name = "spl-name-service"
 version = "0.3.0"
 dependencies = [
  "borsh 0.10.3",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "solana-program",
  "solana-program-test",
@@ -7092,7 +7103,7 @@ name = "spl-program-error"
 version = "0.3.1"
 dependencies = [
  "lazy_static",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "serial_test",
  "solana-program",
@@ -7128,7 +7139,7 @@ name = "spl-record"
 version = "0.2.0"
 dependencies = [
  "bytemuck",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "solana-program",
  "solana-program-test",
@@ -7155,7 +7166,7 @@ dependencies = [
  "arrayref",
  "bincode",
  "borsh 0.10.3",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "num_enum 0.7.2",
  "rand 0.8.5",
@@ -7212,7 +7223,7 @@ dependencies = [
  "bincode",
  "borsh 0.10.3",
  "bytemuck",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "num_enum 0.7.2",
  "proptest",
@@ -7310,7 +7321,7 @@ dependencies = [
  "arrayref",
  "bytemuck",
  "lazy_static",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "num_enum 0.7.2",
  "proptest",
@@ -7353,7 +7364,7 @@ dependencies = [
  "base64 0.21.7",
  "bytemuck",
  "lazy_static",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "num_enum 0.7.2",
  "proptest",
@@ -7530,7 +7541,7 @@ dependencies = [
  "arrayref",
  "assert_matches",
  "bytemuck",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "proptest",
  "solana-program",
@@ -7606,7 +7617,7 @@ dependencies = [
  "arbitrary",
  "arrayref",
  "enum_dispatch",
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "proptest",
  "roots",
@@ -7635,7 +7646,7 @@ dependencies = [
 name = "spl-token-upgrade"
 version = "0.1.1"
 dependencies = [
- "num-derive 0.4.2",
+ "num-derive 0.5.1",
  "num-traits",
  "num_enum 0.7.2",
  "solana-program",
@@ -7908,6 +7919,17 @@ name = "syn"
 version = "2.0.46"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "89456b690ff72fddcecf231caedbe615c59480c93358a93dfae7fc29e3ebbf0e"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "unicode-ident",
+]
+
+[[package]]
+name = "syn"
+version = "3.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "53e9bae58849f64dfa4f5d5ae372c8341f7305f82a3868709269343628b659a3"
 dependencies = [
  "proc-macro2",
  "quote",
